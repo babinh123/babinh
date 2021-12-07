@@ -1,0 +1,168 @@
+def ngoinha():
+import turtle
+a = -300
+b = 400
+c = 235
+skk = turtle.Turtle()
+#Tạo màu cho hình chữ nhật
+skk.pencolor("black")
+skk.pensize("2")
+skk.fillcolor("blue")
+skk.begin_fill()
+#duy chuyển con trỏ
+for o in range(1):
+    skk.penup()
+    skk.goto(-400,100)
+    skk.pendown()
+    skk.lt(180)
+# vẽ hình chữ nhật(thân nhà)
+for o in range(2):
+    skk.forward(a)
+    skk.left(90)
+    skk.forward(b)
+    skk.left(90)
+skk.end_fill() 
+# tạo màu cho hình tam giác(mái nhà)
+skk.pencolor("black")
+skk.pensize("2")
+skk.fillcolor("red")
+skk.begin_fill()
+#Vẽ mái nhà
+for o in range(2):
+    skk.right(130)
+    skk.forward(c)
+    skk.right(-30)
+skk.end_fill() 
+# tạo màu cho mái nhà thứ hai
+skk.pencolor("black")
+skk.pensize("2")
+skk.fillcolor("purple")
+skk.begin_fill()
+# vẽ mái nhà thứ hai
+for i in range(1):
+    skk.right(-35)
+    skk.forward(400)
+    skk.left(130)
+    skk.forward(235)
+    skk.left(44.8)
+    skk.forward(348)
+skk.end_fill()
+#Duy chuyển con trỏ để vẽ thân nhà thứ hai
+for o in range(1):
+    skk.penup()
+    skk.goto(288.1,205)
+    skk.pendown()
+    skk.lt(180)
+# tạo màu cho thân nhà sau
+skk.pencolor("black")
+skk.pensize(2)
+skk.fillcolor("orange")
+skk.begin_fill()
+# vẽ thân nhà
+for i in range(1):
+    skk.right(99.8)
+    skk.forward(380)
+    skk.right(72)
+    skk.forward(407)
+    skk.right(108.2)
+    skk.forward(401)
+skk.end_fill()
+# duy chuyển con trỏ để vẽ cửa chính
+for o in range(1):
+    skk.penup()
+    skk.goto(-200,-300)
+    skk.pendown()
+    skk.lt(180)
+    #màu cho cửa
+    skk.pencolor("black")
+    skk.pensize("2")
+    skk.fillcolor("green")
+    skk.begin_fill()
+# Vẽ cửa Chính
+for k in range(1):
+    skk.right(180)
+    skk.forward(170)
+    skk.left(90)
+    skk.forward(105)
+    skk.left(90)
+    skk.forward(170)
+skk.end_fill()
+# duy chuyễn con trỏ vẽ cửa sổ
+for o in range(1):
+    skk.penup()
+    skk.goto(170,50)
+    skk.pendown()
+    skk.lt(180)
+# tô màu cho cửa sổ
+    skk.fillcolor("yellow")
+    skk.begin_fill()
+# Vẽ cửa sổ
+for o in range(1):
+    skk.left(180)
+    skk.forward(90)
+    skk.right(70)
+    skk.forward(100)
+    skk.right(110)
+    skk.forward(90)
+    skk.right(70)
+    skk.forward(100)
+skk.end_fill()
+# duy chuyển con trỏ để vẽ cây thông
+for i in range(1):
+    skk.penup()
+    skk.goto(600,-300)
+    skk.pendown()
+    skk.lt(180)
+    # tạo màu cho thân cây
+    skk.fillcolor("brown")
+    skk.begin_fill()
+# vẽ thân cây thông
+for l in range(1):
+    skk.right(110)
+    skk.forward(200)
+    skk.right(90)
+    skk.forward(50)
+    skk.right(90)
+    skk.forward(200)
+    skk.right(90)
+    skk.forward(50)
+skk.end_fill()
+
+for i in range(1):
+    skk.penup()
+    skk.goto(750,-100)
+    skk.pendown()
+    skk.lt(180)
+
+    skk.fillcolor("green")
+    skk.pencolor("green")
+    skk.begin_fill()
+
+for p in range(3):
+        skk.fd(100)
+        skk.lt(135)
+        skk.fd(200)
+        skk.rt(135)
+for k in range(1):
+        skk.rt(135)
+      
+for i in range(3):
+
+        skk.fd(200)
+        skk.lt(135)
+        skk.fd(100)
+        skk.rt(135)
+skk.end_fill()
+
+
+turtle.done()
+
+
+
+
+   
+    
+
+   
+
+
